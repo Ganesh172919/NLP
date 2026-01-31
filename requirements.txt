@@ -1,0 +1,41 @@
+# SRL-QA System Requirements
+# Python 3.8+
+
+# Core NLP libraries
+# Note: For full PropBank processing, additional setup may be required
+# See: https://github.com/propbank/propbank-release
+
+# Standard library dependencies (included with Python)
+# - dataclasses
+# - logging
+# - json
+# - re
+# - collections
+# - pathlib
+# - typing
+# - enum
+# - xml.etree.ElementTree
+# - argparse
+# - time
+
+# Optional dependencies for enhanced functionality:
+# Uncomment as needed based on your use case
+
+# For neural SRL models (optional):
+# allennlp>=2.10.0
+# torch>=1.12.0
+
+# For transformer-based models (optional):
+# transformers>=4.20.0
+
+# For data processing (optional):
+# pandas>=1.4.0
+# numpy>=1.22.0
+
+# For PDF report generation (optional):
+# reportlab>=3.6.0
+# matplotlib>=3.5.0
+
+# For testing (optional):
+# pytest>=7.0.0
+# pytest-cov>=3.0.0
